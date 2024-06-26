@@ -1,0 +1,48 @@
+.app {
+  display: grid;
+  grid-template-rows: 150px auto;
+}
+
+.app_main {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin-top: 45px;
+}
+
+.card {
+  margin: 0px;
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+}
+
+.task_column {
+  /* width: 33.33%; */
+  margin: 10px;
+}
+
+/* new css */
+.App {
+  text-align: center;
+}
+
+body {
+  background-image: linear-gradient(
+    to right,
+    #b62c2a,
+    #8a3b51,
+    #674874,
+    #255dac
+  );
+}
+
+h2 {
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 26px;
+}
+
+h1 {
+  font-size: 50px;
+}
